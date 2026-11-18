@@ -1,0 +1,428 @@
+{
+  "versao": "1.0",
+  "descricao": "Base de conhecimento do Citizen Assist AI. Cada orientação é uma síntese própria de uma página oficial lida na data indicada em data_verificacao.",
+  "categorias": {
+    "documentacao": "Documentação",
+    "servicos_publicos": "Serviços públicos",
+    "direitos_cidadania": "Direitos e orientações cidadãs"
+  },
+  "registros": [
+    {
+      "id": "DOC001",
+      "tema": "documentacao",
+      "titulo": "Carteira de Identidade Nacional (CIN)",
+      "pergunta": "Como emitir a nova Carteira de Identidade Nacional?",
+      "palavras_chave": ["identidade", "carteira de identidade", "CIN", "RG", "nova identidade", "documento de identidade", "segunda via identidade"],
+      "resumo": "A CIN é a nova carteira de identidade, com o CPF como número único e validade nacional. Ela é emitida pelo órgão de identificação civil do seu estado ou do Distrito Federal.",
+      "orientacao": "A Carteira de Identidade Nacional usa o número do CPF como registro único em qualquer estado, tem QR Code para conferir a autenticidade e também fica disponível em versão digital no aplicativo gov.br. A emissão é feita pelos órgãos de identificação civil dos estados e do Distrito Federal, que normalmente trabalham com agendamento.",
+      "passos": [
+        "Procure o órgão de identificação civil (instituto de identificação) do seu estado ou do Distrito Federal e verifique como agendar o atendimento.",
+        "Separe a certidão de nascimento ou de casamento atualizada.",
+        "Se quiser incluir números de outros documentos na versão digital (como CNH, título de eleitor ou carteira de trabalho), leve esses documentos no atendimento.",
+        "Compareça ao atendimento na data agendada.",
+        "Depois da emissão, a versão digital pode ser acessada no aplicativo gov.br."
+      ],
+      "limitacoes": [
+        "A primeira emissão em papel é gratuita; alguns estados emitem a CIN em cartão de policarbonato, e esse modelo tem custo.",
+        "Agendamento, locais e procedimentos variam de estado para estado.",
+        "O RG no modelo antigo continua válido até 2032.",
+        "Validade da CIN: 5 anos até 12 anos incompletos, 10 anos de 12 a 60 anos incompletos e indeterminada acima de 60 anos.",
+        "A CIN pode ser aceita em países com acordo de viagem com o Brasil (como os do Mercosul), mas não substitui o passaporte nos demais países."
+      ],
+      "fonte": {
+        "nome": "Governo Digital (gov.br) — Dúvidas Frequentes sobre a CIN",
+        "url": "https://www.gov.br/governodigital/pt-br/identidade/cin/perguntas-frequentes-sobre-a-cin"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais. Confira as regras do órgão de identificação do seu estado.",
+      "relacionados": ["DOC002", "DOC004", "SER001"]
+    },
+    {
+      "id": "DOC002",
+      "tema": "documentacao",
+      "titulo": "CPF: consultar, atualizar e regularizar",
+      "pergunta": "Como consultar, atualizar ou regularizar o meu CPF?",
+      "palavras_chave": ["CPF", "cadastro de pessoas físicas", "regularizar CPF", "CPF suspenso", "CPF pendente de regularização", "atualizar CPF", "situação cadastral", "comprovante de CPF", "Receita Federal"],
+      "resumo": "A Receita Federal permite consultar a situação do CPF, emitir o comprovante e atualizar ou regularizar os dados pelos canais oficiais.",
+      "orientacao": "Pelos serviços da Receita Federal no gov.br é possível consultar a situação cadastral do CPF e emitir o comprovante. Também é possível alterar dados ou regularizar um CPF em situação suspensa (cadastro incorreto ou incompleto). A situação 'pendente de regularização' é resolvida com a entrega das declarações de Imposto de Renda que estiverem faltando.",
+      "passos": [
+        "Consulte a situação do seu CPF no serviço de consulta da Receita Federal no gov.br.",
+        "Se os dados estiverem regulares e você precisar mudá-los, use a opção de alterar dados cadastrais; se o CPF estiver suspenso, use a opção de regularizar.",
+        "Se o atendimento gerar um protocolo, apresente os documentos pedidos à Receita Federal (ou ao consulado, para quem mora no exterior).",
+        "Acompanhe o pedido pelo número do protocolo."
+      ],
+      "limitacoes": [
+        "A atualização é gratuita nos canais da Receita Federal; nas unidades conveniadas (cartórios de registro civil, Banco do Brasil, Caixa e Correios) é cobrada taxa, informada na página oficial como R$ 7,00 na data da verificação.",
+        "O serviço de atualização on-line exige conta gov.br de nível prata ou ouro.",
+        "Quem já tem a Carteira de Identidade Nacional deve pedir a alteração da maioria dos dados ao órgão de identificação civil; contato, endereço e regularização continuam com a Receita Federal.",
+        "Quem mora no exterior tem um canal de atendimento próprio."
+      ],
+      "fonte": {
+        "nome": "Receita Federal (gov.br) — Atualizar Cadastro de Pessoas Físicas",
+        "url": "https://www.gov.br/pt-br/servicos/atualizar-cadastro-de-pessoas-fisicas"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais da Receita Federal.",
+      "relacionados": ["DOC001", "SER001", "SER002"]
+    },
+    {
+      "id": "DOC003",
+      "tema": "documentacao",
+      "titulo": "Carteira de Trabalho Digital",
+      "pergunta": "Como obter a Carteira de Trabalho Digital?",
+      "palavras_chave": ["carteira de trabalho", "carteira de trabalho digital", "CTPS", "CTPS digital", "emprego", "vínculo de trabalho", "trabalhador"],
+      "resumo": "A Carteira de Trabalho é emitida prioritariamente em formato digital. Para obtê-la, você precisa do CPF e de uma conta gov.br.",
+      "orientacao": "A Carteira de Trabalho e Previdência Social (CTPS) registra a vida profissional do trabalhador e dá acesso a direitos trabalhistas. Ela é emitida prioritariamente no formato digital; o formato físico fica como exceção para anotações de vínculos anteriores ao modelo digital. Qualquer pessoa inscrita no CPF pode usar o serviço.",
+      "passos": [
+        "Tenha em mãos o número do seu CPF.",
+        "Crie ou acesse sua conta gov.br (qualquer nível: bronze, prata ou ouro).",
+        "Instale o aplicativo Carteira de Trabalho Digital (Android ou iOS) ou acesse a versão web.",
+        "Entre com a conta gov.br para visualizar sua carteira."
+      ],
+      "limitacoes": [
+        "O serviço é gratuito.",
+        "Para dúvidas, o Ministério do Trabalho e Emprego indica a Central 158 e um formulário de contato on-line."
+      ],
+      "fonte": {
+        "nome": "Ministério do Trabalho e Emprego (gov.br) — Obter a Carteira de Trabalho",
+        "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais do Ministério do Trabalho e Emprego.",
+      "relacionados": ["DOC002", "SER001", "SER003"]
+    },
+    {
+      "id": "DOC004",
+      "tema": "documentacao",
+      "titulo": "Passaporte comum",
+      "pergunta": "Como tirar o passaporte comum?",
+      "palavras_chave": ["passaporte", "passaporte comum", "emitir passaporte", "renovar passaporte", "documento de viagem", "viagem internacional", "Polícia Federal", "taxa do passaporte"],
+      "resumo": "O passaporte comum é solicitado à Polícia Federal: formulário e pagamento on-line, depois atendimento presencial agendado e retirada no mesmo posto.",
+      "orientacao": "O serviço da Polícia Federal emite o passaporte comum para quem está em território brasileiro. O processo tem uma parte on-line (formulário e pagamento da taxa) e uma parte presencial (agendamento, coleta de digitais e foto, e retirada do documento).",
+      "passos": [
+        "Preencha o formulário on-line de solicitação; o envio gera um protocolo e a taxa.",
+        "Pague a taxa (PagTesouro por PIX ou cartão, boleto ou DDA).",
+        "Depois que o pagamento for compensado, agende o atendimento no posto da Polícia Federal escolhido.",
+        "Compareça com a documentação original; no posto são coletadas as digitais e a foto, e é informado o prazo de entrega.",
+        "Acompanhe o andamento até o passaporte ficar disponível.",
+        "Retire o passaporte no mesmo posto, apresentando documento de identificação."
+      ],
+      "limitacoes": [
+        "Valores informados na página oficial na data da verificação: taxa comum de R$ 257,25; urgência ou emergência de R$ 334,42; substituição de passaporte válido perdido ou extraviado de R$ 514,50. Confirme antes de pagar.",
+        "O prazo de entrega costuma ser de 6 a 10 dias úteis e pode aumentar em férias escolares e feriados prolongados.",
+        "O atendimento presencial é obrigatório, inclusive para menores; menores de 16 anos precisam de responsável legal.",
+        "Passaporte não retirado em 90 dias corridos é cancelado, sem devolução da taxa.",
+        "O serviço atende apenas quem está no Brasil; passaportes diplomático e oficial não são emitidos por ele."
+      ],
+      "fonte": {
+        "nome": "Polícia Federal (gov.br) — Obter passaporte",
+        "url": "https://www.gov.br/pt-br/servicos/obter-passaporte-comum-para-brasileiro"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Valores e prazos mudam. Confirme sempre na página oficial da Polícia Federal antes de pagar ou agendar.",
+      "relacionados": ["DOC001", "DOC002"]
+    },
+    {
+      "id": "DOC005",
+      "tema": "documentacao",
+      "titulo": "Título de eleitor (primeiro título)",
+      "pergunta": "Como tirar o primeiro título de eleitor?",
+      "palavras_chave": ["título de eleitor", "título eleitoral", "alistamento eleitoral", "tirar título", "primeiro título", "votar", "Justiça Eleitoral", "e-Título", "Título Net", "TSE"],
+      "resumo": "O primeiro título é pedido à Justiça Eleitoral pelo Autoatendimento Eleitoral (Título Net) ou presencialmente na zona eleitoral do município onde você quer votar.",
+      "orientacao": "Para se tornar eleitor é preciso fazer o alistamento na Justiça Eleitoral. O pedido pode ser feito on-line pelo Autoatendimento Eleitoral (Título Net), nos portais do TSE e dos Tribunais Regionais Eleitorais, ou presencialmente na zona eleitoral do município de domicílio eleitoral. É possível tirar o título a partir dos 15 anos, mas só se vota a partir dos 16.",
+      "passos": [
+        "Separe um documento oficial de identificação e um comprovante de vínculo com o município onde deseja votar (residencial, familiar, profissional, comunitário ou outro).",
+        "Se houver débito com a Justiça Eleitoral, tenha o comprovante de pagamento; homens que completam 19 anos no ano do pedido também precisam do comprovante de quitação militar.",
+        "Digitalize ou fotografe os documentos e tire uma selfie segurando o documento de identificação ao lado do rosto.",
+        "Faça o pedido no Autoatendimento Eleitoral (Título Net) ou procure a zona eleitoral do seu município.",
+        "Acompanhe a análise pelo número de protocolo no próprio Autoatendimento Eleitoral.",
+        "Com o pedido deferido, a via digital do título fica disponível no aplicativo gratuito e-Título."
+      ],
+      "limitacoes": [
+        "O atendimento presencial pode exigir agendamento; verifique a regra no site do Tribunal Regional Eleitoral do seu estado.",
+        "A CNH não deve ser usada sozinha como documento de identificação para o primeiro título.",
+        "A Justiça Eleitoral pode pedir comparecimento ao cartório para concluir o atendimento."
+      ],
+      "fonte": {
+        "nome": "Tribunal Superior Eleitoral — Título Eleitoral (perguntas frequentes)",
+        "url": "https://www.tse.jus.br/servicos-eleitorais/titulo-eleitoral/titulo-eleitoral-faq"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais da Justiça Eleitoral. Em ano de eleição há prazo para o alistamento.",
+      "relacionados": ["DOC001", "DOC002"]
+    },
+    {
+      "id": "SER001",
+      "tema": "servicos_publicos",
+      "titulo": "Conta gov.br e seus níveis",
+      "pergunta": "Como criar a conta gov.br e aumentar o nível da conta?",
+      "palavras_chave": ["gov.br", "conta gov.br", "login gov.br", "senha gov.br", "nível prata", "nível ouro", "nível bronze", "aplicativo gov.br", "login único"],
+      "resumo": "A conta gov.br é uma identificação digital gratuita que serve de login único para serviços públicos digitais. Ela tem os níveis bronze, prata e ouro.",
+      "orientacao": "A conta gov.br comprova que você é quem diz ser ao acessar serviços digitais do governo e é gratuita para todos os cidadãos brasileiros. O nível da conta (bronze, prata ou ouro) depende da forma como seus dados foram validados; níveis mais altos dão acesso a mais serviços.",
+      "passos": [
+        "Crie a conta pelo endereço acesso.gov.br.",
+        "Valide seus dados: o cadastro on-line pela Receita Federal ou pelo INSS, ou o atendimento presencial no INSS ou no Balcão gov.br, dão o nível bronze.",
+        "Para o nível prata, use o aplicativo gov.br: reconhecimento facial com base na CNH ou validação pelo internet banking de um banco credenciado.",
+        "Para o nível ouro, use o aplicativo gov.br: reconhecimento facial com base na Justiça Eleitoral, leitura do QR Code da Carteira de Identidade Nacional ou certificado digital compatível com ICP-Brasil."
+      ],
+      "limitacoes": [
+        "A conta pode existir sem o aplicativo, mas o aplicativo é necessário para reconhecimento facial e prova de vida.",
+        "Alguns serviços exigem nível prata ou ouro."
+      ],
+      "fonte": {
+        "nome": "Governo Digital (gov.br) — Níveis da conta gov.br",
+        "url": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais do gov.br. Nunca informe sua senha a terceiros.",
+      "relacionados": ["SER003", "SER004", "SER005", "DOC003", "DIR002"]
+    },
+    {
+      "id": "SER002",
+      "tema": "servicos_publicos",
+      "titulo": "Cadastro Único (CadÚnico)",
+      "pergunta": "Como fazer a inscrição no Cadastro Único?",
+      "palavras_chave": ["cadastro único", "CadÚnico", "cadunico", "Bolsa Família", "baixa renda", "programas sociais", "BPC", "tarifa social", "atualizar cadastro"],
+      "resumo": "O Cadastro Único identifica famílias de baixa renda e é a porta de entrada para programas sociais. A inscrição é gratuita e presencial, no posto do seu município.",
+      "orientacao": "O Cadastro Único reúne informações sobre famílias de baixa renda (endereço, composição familiar, escolaridade, trabalho, renda, deficiência, entre outras) e é usado para selecionar beneficiários de mais de 40 programas sociais, como Bolsa Família, BPC e Tarifa Social de Energia Elétrica. Podem se cadastrar famílias com renda mensal de até meio salário-mínimo por pessoa; famílias com renda maior também podem, quando o cadastro for exigido por um programa específico.",
+      "passos": [
+        "Procure o posto de atendimento do Cadastro Único do seu município (como o CRAS ou um posto de cadastramento).",
+        "O responsável pela família deve comparecer levando o CPF de todas as pessoas da família (obrigatório), um documento de identificação e, se tiver, comprovante de residência (de preferência conta de luz).",
+        "Faça a entrevista de cadastro no posto.",
+        "Atualize o cadastro pelo menos a cada 24 meses, ou sempre que mudar endereço, renda, trabalho, composição da família ou escola das crianças."
+      ],
+      "limitacoes": [
+        "Cada pessoa só pode estar cadastrada em uma família.",
+        "Quem não tem CPF pode iniciar o cadastro, mas ele fica 'aguardando CPF' e pode ser excluído se o CPF não for regularizado no prazo.",
+        "Cadastro desatualizado pode levar ao bloqueio, suspensão ou cancelamento de benefícios.",
+        "Para famílias de uma só pessoa, o cadastro para benefícios federais é feito, em regra, por entrevista no domicílio.",
+        "O atendimento é feito pelo município, e a organização varia de cidade para cidade."
+      ],
+      "fonte": {
+        "nome": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome — Cadastro Único",
+        "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação no posto do Cadastro Único do seu município.",
+      "relacionados": ["DIR004", "DOC002", "SER003"]
+    },
+    {
+      "id": "SER003",
+      "tema": "servicos_publicos",
+      "titulo": "Meu INSS",
+      "pergunta": "Como acessar o Meu INSS para pedir serviços do INSS?",
+      "palavras_chave": ["Meu INSS", "INSS", "aposentadoria", "benefício INSS", "pensão", "salário maternidade", "auxílio-doença", "previdência", "135"],
+      "resumo": "O Meu INSS reúne mais de 90 serviços do INSS pela internet e pelo aplicativo. Para usar, é preciso ter uma conta gov.br ativa.",
+      "orientacao": "O Meu INSS permite pedir e acompanhar serviços do INSS sem ir a uma agência, pelo endereço gov.br/meuinss ou pelo aplicativo Meu INSS (Android e iOS). Entre os serviços estão aposentadorias, pensão por morte, salário-maternidade e auxílio-doença, além do envio de documentos digitalizados ou fotografados.",
+      "passos": [
+        "Acesse gov.br/meuinss ou instale o aplicativo Meu INSS.",
+        "Entre com sua conta gov.br; para criá-la são pedidos CPF, nome completo, data de nascimento e respostas sobre o seu cadastro no INSS.",
+        "Como alternativa, alguns bancos credenciados geram uma senha provisória do Meu INSS pelo internet banking.",
+        "Escolha o serviço desejado e envie os documentos pedidos.",
+        "Acompanhe o pedido pelo número do protocolo, no Meu INSS ou pela Central 135."
+      ],
+      "limitacoes": [
+        "É necessária uma conta gov.br ativa.",
+        "A Central 135 atende de segunda a sábado, das 7h às 22h, segundo a página oficial na data da verificação.",
+        "As regras de cada benefício (requisitos, prazos e valores) não estão nesta orientação; consulte o serviço específico no INSS."
+      ],
+      "fonte": {
+        "nome": "Instituto Nacional do Seguro Social (gov.br) — Saiba tudo sobre o Meu INSS",
+        "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss/meu-inss"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais do INSS. O INSS não pede senha por telefone ou mensagem.",
+      "relacionados": ["SER001", "DOC003", "SER002"]
+    },
+    {
+      "id": "SER004",
+      "tema": "servicos_publicos",
+      "titulo": "Carteira Digital de Trânsito (aplicativo CNH do Brasil)",
+      "pergunta": "Como ter a CNH e o documento do veículo no celular?",
+      "palavras_chave": ["carteira digital de trânsito", "CDT", "CNH digital", "CNH do Brasil", "habilitação", "documento do veículo", "CRLV digital", "trânsito", "Senatran"],
+      "resumo": "O aplicativo da Senatran, que a página oficial chama de CNH do Brasil, guarda a CNH e o documento do veículo no celular, com a mesma validade dos impressos.",
+      "orientacao": "A página oficial do serviço 'Instalar aplicativo CDT' informa que o aplicativo CNH do Brasil, da Secretaria Nacional de Trânsito (Senatran), permite ter a Carteira Nacional de Habilitação e o documento do veículo no celular. Os documentos digitais têm a mesma validade dos impressos, e o dono do veículo pode compartilhar o documento digital com outras pessoas que o utilizam.",
+      "passos": [
+        "Verifique se você tem conta gov.br e um celular compatível.",
+        "Instale o aplicativo no celular (Android ou iOS).",
+        "Entre no aplicativo com o login único do gov.br.",
+        "Visualize a CNH e, se o veículo estiver em seu nome, o documento do veículo."
+      ],
+      "limitacoes": [
+        "O serviço é gratuito.",
+        "Exige conta gov.br e dispositivo compatível.",
+        "Para dúvidas, a página indica a central de serviços do Serpro: 0800 728 2324."
+      ],
+      "fonte": {
+        "nome": "Ministério dos Transportes (gov.br) — Instalar aplicativo CDT",
+        "url": "https://www.gov.br/pt-br/servicos/obter-carteira-digital-de-transito"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais da Senatran. O nome do aplicativo pode mudar entre versões.",
+      "relacionados": ["SER001", "DOC001"]
+    },
+    {
+      "id": "SER005",
+      "tema": "servicos_publicos",
+      "titulo": "Encontrar serviços públicos no portal gov.br",
+      "pergunta": "Como encontrar um serviço público no portal gov.br?",
+      "palavras_chave": ["serviços públicos", "portal gov.br", "buscar serviço", "catálogo de serviços", "serviços por órgão", "serviços por estado", "minhas solicitações", "serviço federal"],
+      "resumo": "O portal gov.br reúne os serviços públicos federais e permite buscá-los por categoria, por órgão ou por estado.",
+      "orientacao": "A área de serviços do portal gov.br concentra os serviços públicos federais. É possível buscar um serviço pelo campo de busca, navegar por categorias, órgãos ou estados e filtrar pelo público-alvo (cidadãos, empresas, órgãos públicos, servidores e outros). Pedidos já feitos podem ser acompanhados em 'Consultar minhas solicitações'.",
+      "passos": [
+        "Acesse a área de serviços do portal gov.br.",
+        "Digite o nome do serviço no campo de busca ou use os termos mais buscados.",
+        "Se preferir, navegue por categoria, por órgão ou por estado.",
+        "Abra a página do serviço e confira quem pode usar, as etapas e os canais.",
+        "Para acompanhar pedidos, use 'Consultar minhas solicitações'."
+      ],
+      "limitacoes": [
+        "Serviços estaduais e municipais aparecem em área própria e podem seguir regras locais.",
+        "Muitos serviços exigem login com a conta gov.br."
+      ],
+      "fonte": {
+        "nome": "Portal gov.br — Serviços",
+        "url": "https://www.gov.br/pt-br/servicos"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais do gov.br.",
+      "relacionados": ["SER001", "DIR003", "DIR005"]
+    },
+    {
+      "id": "DIR001",
+      "tema": "direitos_cidadania",
+      "titulo": "Direitos básicos do consumidor (CDC)",
+      "pergunta": "Quais são os meus direitos básicos como consumidor?",
+      "palavras_chave": ["direitos do consumidor", "código de defesa do consumidor", "CDC", "lei 8078", "direito de arrependimento", "desistir da compra", "compra pela internet", "produto com defeito", "garantia"],
+      "resumo": "O Código de Defesa do Consumidor (Lei nº 8.078/1990) garante direitos como informação clara, proteção contra publicidade enganosa e desistência em 7 dias nas compras fora da loja.",
+      "orientacao": "O Código de Defesa do Consumidor considera consumidor quem adquire ou usa um produto ou serviço como destinatário final. Entre os direitos básicos (art. 6º) estão a proteção da vida, da saúde e da segurança, a informação adequada e clara sobre produtos e serviços (com preço e riscos), a proteção contra publicidade enganosa ou abusiva e contra cláusulas abusivas, o acesso a órgãos administrativos e judiciais e a facilitação da defesa dos seus direitos. Nas contratações feitas fora do estabelecimento comercial, como por telefone ou em domicílio, o consumidor pode desistir em até 7 dias (art. 49).",
+      "passos": [
+        "Verifique se a situação é uma relação de consumo: você comprou ou usou o produto ou serviço como destinatário final.",
+        "Identifique o direito envolvido (por exemplo, informação clara, publicidade enganosa ou cláusula abusiva).",
+        "Se a compra foi feita fora da loja, conte o prazo de 7 dias a partir da assinatura ou do recebimento para desistir.",
+        "Ao desistir nesse prazo, peça a devolução imediata dos valores pagos, com atualização monetária.",
+        "Se não houver acordo com o fornecedor, procure os canais de defesa do consumidor."
+      ],
+      "limitacoes": [
+        "O direito de desistência do art. 49 vale para contratações fora do estabelecimento comercial; compras presenciais não estão cobertas por esse artigo.",
+        "Para reclamar de vícios aparentes, o prazo é de 30 dias para produtos e serviços não duráveis e de 90 dias para duráveis (art. 26).",
+        "Esta orientação resume a lei e não substitui a análise de um caso concreto por um órgão de defesa do consumidor, pela Defensoria Pública ou por um advogado."
+      ],
+      "fonte": {
+        "nome": "Planalto — Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Resumo informativo da lei. Para um caso concreto, procure um órgão de defesa do consumidor.",
+      "relacionados": ["DIR002"]
+    },
+    {
+      "id": "DIR002",
+      "tema": "direitos_cidadania",
+      "titulo": "Reclamar de uma empresa no Consumidor.gov.br",
+      "pergunta": "Como registrar uma reclamação contra uma empresa?",
+      "palavras_chave": ["reclamação", "reclamar de empresa", "consumidor.gov.br", "defesa do consumidor", "procon", "problema com compra", "conflito de consumo", "Senacon"],
+      "resumo": "O Consumidor.gov.br é um serviço público e gratuito para negociar diretamente com empresas participantes, que têm até 10 dias para responder.",
+      "orientacao": "O Consumidor.gov.br permite que o consumidor se comunique diretamente com as empresas participantes para resolver conflitos de consumo pela internet. A participação das empresas é voluntária. O serviço é monitorado pela Secretaria Nacional do Consumidor (Senacon), do Ministério da Justiça, e por outros órgãos, e não substitui o atendimento dos Procons e demais órgãos de defesa do consumidor.",
+      "passos": [
+        "Acesse o Consumidor.gov.br e entre com a sua conta gov.br.",
+        "Verifique se a empresa contra a qual você quer reclamar está cadastrada na plataforma.",
+        "Registre a reclamação com todos os dados e informações do problema.",
+        "Aguarde a resposta da empresa, que tem até 10 dias para analisar e responder.",
+        "Em até 20 dias, avalie a resposta, informando se a reclamação foi resolvida e o seu nível de satisfação."
+      ],
+      "limitacoes": [
+        "Só é possível reclamar de empresas que aderiram à plataforma.",
+        "Se o problema não for resolvido, a recomendação oficial é procurar Procons, Defensorias Públicas, Juizados Especiais Cíveis ou outros órgãos do Sistema Nacional de Defesa do Consumidor.",
+        "A plataforma não é um processo administrativo nem judicial."
+      ],
+      "fonte": {
+        "nome": "Consumidor.gov.br — Conheça o Consumidor.gov.br",
+        "url": "https://www.consumidor.gov.br/pages/conteudo/publico/1"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais. Procons são órgãos estaduais e municipais, com regras de atendimento próprias.",
+      "relacionados": ["DIR001", "SER001", "DIR005"]
+    },
+    {
+      "id": "DIR003",
+      "tema": "direitos_cidadania",
+      "titulo": "Acesso à informação pública",
+      "pergunta": "Como pedir uma informação pública ao governo federal?",
+      "palavras_chave": ["acesso à informação", "lei de acesso à informação", "LAI", "pedido de informação", "informação pública", "transparência", "Informa.BR", "dados abertos"],
+      "resumo": "Você pode buscar informações públicas federais no Informa.BR e, se não encontrar, fazer um pedido de acesso à informação pela Lei de Acesso à Informação.",
+      "orientacao": "A página de Acesso à Informação do gov.br apresenta o Informa.BR, plataforma que usa inteligência artificial para localizar informações públicas do Governo Federal já disponíveis em páginas oficiais, como o Portal da Transparência e o Portal de Dados Abertos. Quando a informação não é encontrada, é possível fazer um pedido com base na Lei de Acesso à Informação (LAI). Pela plataforma Fala.BR, o pedido é gratuito e não exige justificativa.",
+      "passos": [
+        "Acesse a página de Acesso à Informação do gov.br e abra o Informa.BR.",
+        "Pesquise a informação desejada.",
+        "Se não encontrar, registre um pedido de acesso à informação com base na LAI.",
+        "Guarde o número do protocolo para acompanhar a resposta."
+      ],
+      "limitacoes": [
+        "A página trata de informações do Governo Federal; estados e municípios têm canais próprios.",
+        "Os prazos de resposta não estão descritos na página verificada."
+      ],
+      "fonte": {
+        "nome": "Portal gov.br — Acesso à Informação",
+        "url": "https://www.gov.br/acessoainformacao/pt-br"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais.",
+      "relacionados": ["DIR005", "SER005"]
+    },
+    {
+      "id": "DIR004",
+      "tema": "direitos_cidadania",
+      "titulo": "Assistência social no CRAS",
+      "pergunta": "Onde procurar assistência social e o que o CRAS oferece?",
+      "palavras_chave": ["assistência social", "CRAS", "centro de referência de assistência social", "SUAS", "ajuda social", "benefícios sociais", "vulnerabilidade", "violência doméstica"],
+      "resumo": "O CRAS é a unidade pública do SUAS mais próxima das famílias. Lá você recebe orientação sobre benefícios e direitos e pode fazer o Cadastro Único, de graça.",
+      "orientacao": "O Centro de Referência de Assistência Social (CRAS) é uma unidade pública responsável pelos serviços de proteção social básica do Sistema Único de Assistência Social (SUAS) nos municípios e no Distrito Federal. No CRAS é possível ter acesso a serviços, benefícios e programas de assistência social, fazer o Cadastro Único, receber orientação sobre benefícios e direitos, pedir apoio em dificuldades de convivência familiar e receber orientação em casos de violência doméstica. O atendimento é gratuito.",
+      "passos": [
+        "Localize o CRAS mais próximo pela prefeitura da sua cidade ou pela consulta de endereços indicada na página oficial.",
+        "Verifique se o seu município oferece agendamento por telefone ou outro meio.",
+        "Compareça ao CRAS; se tiver, leve CPF, carteira de identidade ou outro documento de identificação.",
+        "Explique a sua necessidade ao profissional que fizer o atendimento, que fará os encaminhamentos."
+      ],
+      "limitacoes": [
+        "Não é obrigatório apresentar documentos para ser atendido, mas eles ajudam na identificação.",
+        "Pode haver fila ou lista de espera para o primeiro atendimento; os horários e a organização variam por município.",
+        "O atendimento prioriza famílias no Cadastro Único e beneficiárias de programas como Bolsa Família e BPC."
+      ],
+      "fonte": {
+        "nome": "Ministério do Desenvolvimento e Assistência Social (gov.br) — Acessar o CRAS",
+        "url": "https://www.gov.br/pt-br/servicos/acessar-o-cras-centro-de-referencia-da-assistencia-social"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação com a prefeitura do seu município. Em caso de violência, procure também os canais de emergência.",
+      "relacionados": ["SER002", "DIR005"]
+    },
+    {
+      "id": "DIR005",
+      "tema": "direitos_cidadania",
+      "titulo": "Ouvidoria pública: reclamações, denúncias e sugestões (Fala.BR)",
+      "pergunta": "Como registrar uma reclamação, denúncia ou sugestão sobre um serviço público?",
+      "palavras_chave": ["ouvidoria", "Fala.BR", "denúncia", "reclamação de serviço público", "sugestão", "elogio", "atendimento ao cidadão", "manifestação", "protocolo"],
+      "resumo": "O Fala.BR é a plataforma de ouvidoria para registrar denúncias, reclamações, sugestões, elogios e solicitações à administração pública, e também pedidos de acesso à informação.",
+      "orientacao": "O Fala.BR, Plataforma Integrada de Ouvidoria e Acesso à Informação, recebe manifestações de cidadãos às instituições da administração pública: denúncias, elogios, reclamações, sugestões e solicitações. A mesma plataforma recebe pedidos de acesso à informação, que são gratuitos e não exigem justificativa. As manifestações podem ser consultadas depois pelo protocolo.",
+      "passos": [
+        "Acesse a plataforma Fala.BR.",
+        "Escolha o tipo de registro: manifestação de ouvidoria (denúncia, reclamação, sugestão, elogio ou solicitação) ou pedido de acesso à informação.",
+        "Descreva a situação e indique a instituição envolvida.",
+        "Guarde o protocolo e o código de acesso para consultar o andamento."
+      ],
+      "limitacoes": [
+        "A página informa um canal de reclamação via WhatsApp em caráter experimental.",
+        "Servidores públicos têm um canal próprio na plataforma.",
+        "Estados e municípios podem ter ouvidorias próprias."
+      ],
+      "fonte": {
+        "nome": "Fala.BR — Plataforma Integrada de Ouvidoria e Acesso à Informação",
+        "url": "https://falabr.cgu.gov.br/v2/"
+      },
+      "data_verificacao": "2026-11-17",
+      "aviso": "Orientação sujeita à confirmação nos canais oficiais.",
+      "relacionados": ["DIR003", "DIR002", "SER005", "DIR004"]
+    }
+  ]
+}

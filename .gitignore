@@ -1,0 +1,17 @@
+# Ambiente virtual e caches do Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit (segredos nunca vão para o repositório)
+.streamlit/secrets.toml
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

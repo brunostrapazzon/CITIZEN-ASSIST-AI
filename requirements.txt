@@ -1,0 +1,10 @@
+# A interface de terminal (python src/sistema.py) funciona só com a biblioteca
+# padrão do Python. Os pacotes abaixo são opcionais e melhoram a experiência:
+
+rich==15.0.0          # visual da interface de terminal (há modo texto se faltar)
+streamlit==1.67.0     # interface web (streamlit run src/web_app.py)
+
+# Desenvolvimento e documentação
+pytest==9.2.0         # testes automatizados
+pytest-cov==7.1.0     # cobertura dos testes
+reportlab==5.1.0      # geração do relatório PDF (scripts/gerar_relatorio_pdf.py)
