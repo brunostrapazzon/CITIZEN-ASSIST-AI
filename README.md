@@ -22,7 +22,7 @@
 
 ### 👩‍🏫 Professores:
 
-**Tutor(a):** PREENCHER
+**Tutor(a):** Lucas Gomes Jorge Gonçalez
 
 **Coordenador(a):** <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a> (conforme o modelo de portfólio da coordenação)
 

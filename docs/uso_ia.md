@@ -75,8 +75,8 @@ Em todos os prompts a equipe deu a mesma instrução central: **não inventar in
 A equipe definiu o problema, o escopo, as decisões de arquitetura (duas interfaces e núcleo compartilhado) e as regras de rigor acadêmico, e enviou todos os prompts.
 
 **Revisão da equipe:**
-- PREENCHER — quem revisou o quê e quando (código, base de conhecimento, documentação).
-- PREENCHER — alterações feitas pela equipe após a revisão.
-- PREENCHER — confirmação de que todos os integrantes entendem e conseguem explicar a busca, o grafo/Dijkstra e as métricas.
+- **Quem revisou:** os três integrantes desenvolveram e revisaram o projeto inteiro em conjunto: código, base de conhecimento, testes e documentação.
+- **Decisões e ajustes pedidos pela equipe:** divisão da gravação do vídeo em três partes; registro dos resultados reais do teste de facilidade de uso; adequação do README ao modelo da coordenação (seção Professores e sumário); atualização do nome da fonte do CPF conforme a página oficial; remoção, do repositório, dos arquivos de configuração da ferramenta de IA.
+- **Compreensão da solução:** a equipe declara que todos os integrantes sabem explicar cada parte do projeto, incluindo a busca (índice invertido, relevância e cobertura), o grafo e o algoritmo de Dijkstra, os modelos de resposta A e B e as métricas de avaliação.
 
 > A IA foi usada como ferramenta de apoio. A responsabilidade pela compreensão, validação e apresentação da solução é da equipe.
