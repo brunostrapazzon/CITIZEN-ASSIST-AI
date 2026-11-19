@@ -38,7 +38,7 @@
 | Confiabilidade | [15. Tratamento de erros](#15-tratamento-de-erros) · [16. Privacidade, clareza e acessibilidade](#16-privacidade-e-responsabilidade) · [17. Fontes consultadas](#17-fontes-consultadas) |
 | Avaliação | [18. Plano de testes](#18-plano-de-testes) · [19. Resultados](#19-resultados-reais) · [20. Indicadores](#20-indicadores-de-desempenho) |
 | Uso | [21. Como executar](#21-como-executar) · [22. Exemplos](#22-exemplos-de-perguntas-e-respostas) · [25. Vídeo](#25-vídeo-de-apresentação) |
-| Conclusão | [23. Limitações](#23-limitações) · [24. Evolução](#24-possibilidades-de-evolução) · [Uso de IA](#uso-de-inteligência-artificial) · [Licença](#-licença) |
+| Conclusão | [23. Limitações](#23-limitações) · [24. Evolução](#24-possibilidades-de-evolução) · [Licença](#-licença) |
 
 ## 2. Links do projeto
 
@@ -494,10 +494,6 @@ CITIZEN-ASSIST-AI/
 - **Busca explicável** (índice invertido + idf + cobertura) em vez de modelo de linguagem, para garantir que nada seja inventado e que a equipe consiga justificar cada resultado.
 - **Navegação com continuidade:** toda resposta termina com até 3 assuntos relacionados (vindos do grafo) para o usuário seguir a consulta, como pede o enunciado.
 - **Abster-se é melhor do que errar:** quando a confiança é baixa, o sistema mostra opções ou admite que não sabe.
-
-## Uso de inteligência artificial
-
-O desenvolvimento usou um assistente de programação baseado em IA como ferramenta de apoio. O registro detalhado está em [`docs/uso_ia.md`](docs/uso_ia.md).
 
 ## 📋 Licença
 

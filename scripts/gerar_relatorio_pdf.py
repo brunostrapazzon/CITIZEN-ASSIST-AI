@@ -363,8 +363,7 @@ def montar() -> list:
     h += [P("10. Privacidade e responsabilidade", "h1"),
           P("O assistente não pede CPF, endereço, telefone ou qualquer dado pessoal, e não grava as perguntas. Toda "
             "resposta mostra a fonte oficial, a data de verificação e um aviso para confirmar a informação no canal oficial. "
-            "A identidade visual é própria, sem brasões ou elementos que sugiram vínculo com o governo. A IA "
-            "foi usada como apoio ao desenvolvimento, e o registro está em docs/uso_ia.md. A responsabilidade pela validação "
+            "A identidade visual é própria, sem brasões ou elementos que sugiram vínculo com o governo. A responsabilidade pela validação "
             "e apresentação é da equipe.")]
 
     # ------------------------------------------------- 11. conclusão e referências
