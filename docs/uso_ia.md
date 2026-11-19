@@ -62,7 +62,7 @@ Em todos os prompts a equipe deu a mesma instrução central: **não inventar in
 
 - Todo número de desempenho vem da execução de `python src/avaliar.py`. Nenhum foi digitado à mão.
 - Todo teste citado na documentação foi executado.
-- A IA não tem acesso a usuários reais, por isso o teste de usabilidade **não foi realizado**. Ele ficou preparado para a equipe.
+- A IA não teve contato com usuários. O teste de usabilidade foi aplicado pela equipe com uma pessoa de fora (17/11/2026), e os resultados informados pela equipe foram apenas registrados e calculados pelo sistema.
 
 ## Limitações identificadas no uso de IA
 

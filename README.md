@@ -302,11 +302,11 @@ A classificação compara o resultado com o esperado. Retornar um texto qualquer
 - **abstenção incorreta**
 - **falha técnica**
 
-**Usabilidade (facilidade de uso):** o roteiro de 5 tarefas está em [`docs/roteiro_usabilidade.md`](docs/roteiro_usabilidade.md). As sessões reais são registradas em `data/usabilidade.json`, e `python src/avaliar.py` calcula automaticamente a taxa de conclusão sem ajuda, o tempo médio por tarefa, a nota média (1 a 5) e a lista de dificuldades. O teste com uma pessoa real **ainda não foi realizado**, por isso esses indicadores aparecem como *pendente*, sem nenhum número inventado.
+**Usabilidade (facilidade de uso):** o roteiro de 5 tarefas está em [`docs/roteiro_usabilidade.md`](docs/roteiro_usabilidade.md). As sessões reais são registradas em `data/usabilidade.json`, e `python src/avaliar.py` calcula automaticamente a taxa de conclusão sem ajuda, o tempo médio por tarefa, a nota média (1 a 5) e a lista de dificuldades. **Resultado:** 1 participante (P1), sessão em 17/11/2026 usando a CLI e a Web: **5 de 5 tarefas concluídas sem ajuda (100%)**, nenhuma dificuldade registrada e **nota de facilidade 5 de 5**. Comentário do participante: "tudo muito prático e fácil de se usar". **Limites desta avaliação:** só uma pessoa participou, o tempo das tarefas não foi cronometrado e a mesma sessão usou as duas interfaces, então o resultado mostra que o fluxo funciona para um usuário, mas não permite generalizar. O próximo passo é repetir o roteiro com mais participantes, cronometrando cada tarefa.
 
 ## 19. Resultados reais
 
-Valores gerados por `python src/avaliar.py` em **2026-11-17T23:08:09** (arquivo `data/resultados_testes.json`, Modelo B).
+Valores gerados por `python src/avaliar.py` em **2026-11-18T21:23:54** (arquivo `data/resultados_testes.json`, Modelo B).
 
 | Resultado | Quantidade |
 |---|---|
@@ -336,10 +336,12 @@ Cenários não atendidos:
 | **Taxa de acerto** | **86,7%** |
 | Taxa de cobertura (respondíveis que receberam resposta ou opções) | 90,9% |
 | Taxa de abstenção correta (sem suporte na base) | 87,5% |
-| Tempo médio de consulta | 0,0735 ms |
-| Menor tempo | 0,0014 ms |
-| Maior tempo | 0,1769 ms |
-| Facilidade de uso (teste com usuário) | **PENDENTE**: nenhuma sessão real registrada |
+| Tempo médio de consulta | 0,077 ms |
+| Menor tempo | 0,0013 ms |
+| Maior tempo | 0,1777 ms |
+| Facilidade de uso: tarefas concluídas sem ajuda | 5 de 5 (100%), 1 participante |
+| Facilidade de uso: nota média (1 a 5) | 5,0 |
+| Facilidade de uso: tempo por tarefa | não medido |
 
 Os tempos foram medidos com `time.perf_counter()` dentro de `Assistente.consultar`, em um computador com Windows 11 e Python 3.14.8.
 
@@ -436,7 +438,7 @@ Dica: use o menu 2 para escolher um tema ou digite o código da orientação (ex
 - A busca não entende todos os **sinônimos** ("achar" ≈ "encontrar") nem **conjugações** ("emito" ≈ "emitir"), como mostram os cenários T05 e T17.
 - Os limiares de relevância foram ajustados com o mesmo conjunto de cenários usado na avaliação. Os números podem ser otimistas para perguntas novas, e um conjunto de validação separado seria o próximo passo.
 - Regras que variam por estado ou município são sinalizadas, mas não detalhadas.
-- O teste de usabilidade com pessoa real ainda não foi feito.
+- O teste de usabilidade teve só 1 participante e não cronometrou as tarefas; o resultado não pode ser generalizado.
 
 ## 24. Possibilidades de evolução
 

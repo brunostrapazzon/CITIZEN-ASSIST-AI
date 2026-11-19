@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-17T23:08:09",
-  "versao_codigo": "sem-git",
+  "gerado_em": "2026-11-18T21:23:54",
+  "versao_codigo": "c12fe3d",
   "observacao": "Arquivo gerado automaticamente por `python src/avaliar.py`. Não editar à mão.",
   "modelo_usado": "B",
   "indicadores": {
@@ -17,9 +17,9 @@
     "taxa_acerto": 0.8667,
     "taxa_cobertura": 0.9091,
     "taxa_abstencao_correta": 0.875,
-    "tempo_medio_ms": 0.0735,
-    "tempo_min_ms": 0.0014,
-    "tempo_max_ms": 0.1769
+    "tempo_medio_ms": 0.077,
+    "tempo_min_ms": 0.0013,
+    "tempo_max_ms": 0.1777
   },
   "resultados": [
     {
@@ -31,7 +31,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC004",
       "classificacao": "correta",
-      "tempo_ms": 0.1113,
+      "tempo_ms": 0.1103,
       "respondeu": true,
       "observacoes": "Pergunta igual à do registro."
     },
@@ -44,7 +44,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: SER002",
       "classificacao": "correta",
-      "tempo_ms": 0.0892,
+      "tempo_ms": 0.0901,
       "respondeu": true,
       "observacoes": ""
     },
@@ -57,7 +57,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: SER003",
       "classificacao": "correta",
-      "tempo_ms": 0.056,
+      "tempo_ms": 0.0561,
       "respondeu": true,
       "observacoes": ""
     },
@@ -70,7 +70,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC004",
       "classificacao": "correta",
-      "tempo_ms": 0.1171,
+      "tempo_ms": 0.1108,
       "respondeu": true,
       "observacoes": "Usa 'renovar' e 'viajar', ausentes da pergunta do registro."
     },
@@ -83,7 +83,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_incorreta",
-      "tempo_ms": 0.1414,
+      "tempo_ms": 0.14,
       "respondeu": false,
       "observacoes": ""
     },
@@ -109,7 +109,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC002",
       "classificacao": "correta",
-      "tempo_ms": 0.0498,
+      "tempo_ms": 0.0492,
       "respondeu": true,
       "observacoes": ""
     },
@@ -122,7 +122,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DIR003",
       "classificacao": "correta",
-      "tempo_ms": 0.0672,
+      "tempo_ms": 0.0638,
       "respondeu": true,
       "observacoes": "Fala.BR (DIR005) também recebe pedidos LAI; o esperado é a orientação específica de acesso à informação."
     },
@@ -135,7 +135,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC004",
       "classificacao": "correta",
-      "tempo_ms": 0.1405,
+      "tempo_ms": 0.1417,
       "respondeu": true,
       "observacoes": "Falta uma letra."
     },
@@ -148,7 +148,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: SER002",
       "classificacao": "correta",
-      "tempo_ms": 0.0646,
+      "tempo_ms": 0.0807,
       "respondeu": true,
       "observacoes": "Sem acentos."
     },
@@ -161,7 +161,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC005",
       "classificacao": "correta",
-      "tempo_ms": 0.0936,
+      "tempo_ms": 0.136,
       "respondeu": true,
       "observacoes": "Letra faltando em 'título'."
     },
@@ -174,7 +174,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DIR001",
       "classificacao": "correta",
-      "tempo_ms": 0.065,
+      "tempo_ms": 0.085,
       "respondeu": true,
       "observacoes": "Direito de arrependimento (art. 49 do CDC)."
     },
@@ -187,7 +187,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DIR002",
       "classificacao": "correta",
-      "tempo_ms": 0.0905,
+      "tempo_ms": 0.095,
       "respondeu": true,
       "observacoes": ""
     },
@@ -200,7 +200,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "baixa_confianca: opções DIR004",
       "classificacao": "abstencao_incorreta",
-      "tempo_ms": 0.0314,
+      "tempo_ms": 0.0313,
       "respondeu": true,
       "observacoes": ""
     },
@@ -213,7 +213,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: SER001",
       "classificacao": "correta",
-      "tempo_ms": 0.0751,
+      "tempo_ms": 0.0731,
       "respondeu": true,
       "observacoes": ""
     },
@@ -226,7 +226,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: SER004",
       "classificacao": "correta",
-      "tempo_ms": 0.0486,
+      "tempo_ms": 0.0496,
       "respondeu": true,
       "observacoes": ""
     },
@@ -239,7 +239,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_incorreta",
-      "tempo_ms": 0.1039,
+      "tempo_ms": 0.1035,
       "respondeu": false,
       "observacoes": ""
     },
@@ -255,7 +255,7 @@
       "comportamento_esperado": "opcoes",
       "resultado_obtido": "ambiguo: opções DIR002, DIR005",
       "classificacao": "correta",
-      "tempo_ms": 0.0207,
+      "tempo_ms": 0.024,
       "respondeu": true,
       "observacoes": "Pode ser contra empresa (Consumidor.gov.br) ou contra serviço público (Fala.BR)."
     },
@@ -271,7 +271,7 @@
       "comportamento_esperado": "opcoes",
       "resultado_obtido": "ambiguo: opções DOC002, SER002",
       "classificacao": "correta",
-      "tempo_ms": 0.0203,
+      "tempo_ms": 0.0197,
       "respondeu": true,
       "observacoes": "Pode ser Cadastro Único ou Cadastro de Pessoas Físicas (CPF)."
     },
@@ -284,7 +284,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.1769,
+      "tempo_ms": 0.1777,
       "respondeu": false,
       "observacoes": ""
     },
@@ -297,7 +297,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.1256,
+      "tempo_ms": 0.1493,
       "respondeu": false,
       "observacoes": "'receita' coincide com 'Receita Federal'."
     },
@@ -310,7 +310,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.081,
+      "tempo_ms": 0.0854,
       "respondeu": false,
       "observacoes": "A base não tem orientação sobre declarar IR; DOC002 só cita declarações pendentes."
     },
@@ -323,7 +323,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "entrada_invalida",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.0023,
+      "tempo_ms": 0.0022,
       "respondeu": false,
       "observacoes": ""
     },
@@ -336,7 +336,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "entrada_invalida",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.0014,
+      "tempo_ms": 0.0013,
       "respondeu": false,
       "observacoes": "Somente espaços."
     },
@@ -349,7 +349,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "entrada_invalida",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.0032,
+      "tempo_ms": 0.0033,
       "respondeu": false,
       "observacoes": "Sem letras ou números."
     },
@@ -362,7 +362,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "sem_resultado",
       "classificacao": "abstencao_correta",
-      "tempo_ms": 0.1178,
+      "tempo_ms": 0.1214,
       "respondeu": false,
       "observacoes": "A base cobre a CNH digital, não a obtenção da primeira habilitação."
     },
@@ -375,7 +375,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DOC005",
       "classificacao": "correta",
-      "tempo_ms": 0.0598,
+      "tempo_ms": 0.0616,
       "respondeu": true,
       "observacoes": ""
     },
@@ -388,7 +388,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DIR001",
       "classificacao": "correta",
-      "tempo_ms": 0.0592,
+      "tempo_ms": 0.0599,
       "respondeu": true,
       "observacoes": ""
     },
@@ -401,7 +401,7 @@
       "comportamento_esperado": "responder",
       "resultado_obtido": "encontrado: DIR005",
       "classificacao": "correta",
-      "tempo_ms": 0.0661,
+      "tempo_ms": 0.0655,
       "respondeu": true,
       "observacoes": ""
     },
@@ -414,7 +414,7 @@
       "comportamento_esperado": "abster",
       "resultado_obtido": "baixa_confianca: opções DOC002",
       "classificacao": "incorreta",
-      "tempo_ms": 0.0568,
+      "tempo_ms": 0.0531,
       "respondeu": true,
       "observacoes": "Incluído após a v1: um teste unitário mostrou que esta pergunta era respondida com a orientação do CPF. Na v2 o sistema mostra a opção com aviso de baixa confiança, sem responder; pela regra de classificação isso NÃO conta como abstenção."
     }
@@ -423,7 +423,7 @@
     "A": {
       "consultas": 17,
       "media_secoes": 4.0,
-      "media_palavras": 127.1,
+      "media_palavras": 126.9,
       "com_fonte": 17,
       "com_aviso": 17,
       "com_limitacoes": 0,
@@ -432,7 +432,7 @@
     "B": {
       "consultas": 17,
       "media_secoes": 7.0,
-      "media_palavras": 251.8,
+      "media_palavras": 251.6,
       "com_fonte": 17,
       "com_aviso": 17,
       "com_limitacoes": 17,
@@ -441,13 +441,13 @@
     "fontes_consistentes": true
   },
   "usabilidade": {
-    "status": "pendente",
-    "participantes": 0,
-    "tarefas_registradas": 0,
-    "taxa_conclusao_sem_ajuda": null,
-    "taxa_conclusao_total": null,
+    "status": "realizado",
+    "participantes": 1,
+    "tarefas_registradas": 5,
+    "taxa_conclusao_sem_ajuda": 1.0,
+    "taxa_conclusao_total": 1.0,
     "tempo_medio_tarefa_s": null,
-    "nota_media_facilidade": null,
+    "nota_media_facilidade": 5.0,
     "dificuldades": []
   }
 }

@@ -1,11 +1,31 @@
 {
   "instrucoes": "Registre aqui SOMENTE sessões reais com pessoas que não participaram do desenvolvimento (roteiro em docs/roteiro_usabilidade.md). Use um código no lugar do nome (P1, P2...). resultado: concluiu | com_dificuldade | nao_concluiu. tempo_s: segundos medidos com cronômetro. nota_facilidade: 1 (muito difícil) a 5 (muito fácil). Depois rode: python src/avaliar.py",
   "tarefas": [
-    {"id": "U1", "descricao": "Descobrir como tirar o passaporte", "criterio": "Chega à orientação DOC004 e lê os passos"},
-    {"id": "U2", "descricao": "Descobrir como se inscrever no Cadastro Único", "criterio": "Chega à orientação SER002"},
-    {"id": "U3", "descricao": "Encontrar o site oficial que confirma a orientação do passaporte", "criterio": "Aponta a URL da Polícia Federal na seção Fonte oficial"},
-    {"id": "U4", "descricao": "Perguntar a previsão do tempo para amanhã", "criterio": "Entende que o assistente não tem essa informação"},
-    {"id": "U5", "descricao": "A partir do passaporte, ir para um assunto relacionado", "criterio": "Usa 'Continue a consulta' (CLI) ou um botão de assunto relacionado (Web)"}
+    {
+      "id": "U1",
+      "descricao": "Descobrir como tirar o passaporte",
+      "criterio": "Chega à orientação DOC004 e lê os passos"
+    },
+    {
+      "id": "U2",
+      "descricao": "Descobrir como se inscrever no Cadastro Único",
+      "criterio": "Chega à orientação SER002"
+    },
+    {
+      "id": "U3",
+      "descricao": "Encontrar o site oficial que confirma a orientação do passaporte",
+      "criterio": "Aponta a URL da Polícia Federal na seção Fonte oficial"
+    },
+    {
+      "id": "U4",
+      "descricao": "Perguntar a previsão do tempo para amanhã",
+      "criterio": "Entende que o assistente não tem essa informação"
+    },
+    {
+      "id": "U5",
+      "descricao": "A partir do passaporte, ir para um assunto relacionado",
+      "criterio": "Usa 'Continue a consulta' (CLI) ou um botão de assunto relacionado (Web)"
+    }
   ],
   "exemplo_de_sessao_NAO_REAL": {
     "participante": "P1",
@@ -14,8 +34,55 @@
     "nota_facilidade": 4,
     "comentarios": "",
     "resultados": [
-      {"tarefa": "U1", "resultado": "concluiu", "tempo_s": 35, "dificuldade": "", "comentario": ""}
+      {
+        "tarefa": "U1",
+        "resultado": "concluiu",
+        "tempo_s": 35,
+        "dificuldade": "",
+        "comentario": ""
+      }
     ]
   },
-  "sessoes": []
+  "sessoes": [
+    {
+      "participante": "P1",
+      "interface": "CLI e Web",
+      "data": "2026-11-17",
+      "nota_facilidade": 5,
+      "tempo_medido": false,
+      "comentarios": "tudo muito pratico e facil de se usar, adorei",
+      "resultados": [
+        {
+          "tarefa": "U1",
+          "resultado": "concluiu",
+          "dificuldade": "",
+          "comentario": ""
+        },
+        {
+          "tarefa": "U2",
+          "resultado": "concluiu",
+          "dificuldade": "",
+          "comentario": ""
+        },
+        {
+          "tarefa": "U3",
+          "resultado": "concluiu",
+          "dificuldade": "",
+          "comentario": ""
+        },
+        {
+          "tarefa": "U4",
+          "resultado": "concluiu",
+          "dificuldade": "",
+          "comentario": ""
+        },
+        {
+          "tarefa": "U5",
+          "resultado": "concluiu",
+          "dificuldade": "",
+          "comentario": ""
+        }
+      ]
+    }
+  ]
 }

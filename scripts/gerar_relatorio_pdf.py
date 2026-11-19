@@ -321,7 +321,11 @@ def montar() -> list:
               "Nenhum resultado foi simulado." if res.get("usabilidade", {}).get("status") != "realizado" else
               f"{res['usabilidade']['participantes']} participante(s); tarefas concluídas sem ajuda: "
               f"{pct(res['usabilidade']['taxa_conclusao_sem_ajuda'])}; tempo médio por tarefa: "
-              f"{res['usabilidade']['tempo_medio_tarefa_s']} s; nota média: {res['usabilidade']['nota_media_facilidade']}."),
+              + ("não medido" if res['usabilidade']['tempo_medio_tarefa_s'] is None
+               else f"{res['usabilidade']['tempo_medio_tarefa_s']} s".replace(".", ","))
+              + f"; nota média: {num(res['usabilidade']['nota_media_facilidade'], 1)} de 5. Comentário do participante: "
+              "\"tudo muito prático e fácil de se usar\". Como houve só um participante e o tempo não foi cronometrado, "
+              "o resultado confirma que o fluxo funciona para um usuário, mas não permite generalizar."),
             "p"),
           P("<b>Cenários não atendidos:</b>", "p")]
     h += lista([f"<b>{f['id']}</b> \"{f['pergunta']}\" → {f['resultado_obtido']} ({CLASSIFICACOES[f['classificacao']]})."
@@ -344,8 +348,8 @@ def montar() -> list:
         "As orientações têm data de verificação e podem ficar desatualizadas. Valores e prazos mudam.",
         "Os limiares foram calibrados com os mesmos cenários da avaliação, então os números podem ser otimistas para "
         "perguntas novas.",
-        "O teste de usabilidade com pessoa real ainda não foi realizado. O roteiro está pronto em "
-        "docs/roteiro_usabilidade.md.",
+        "O teste de facilidade de uso teve 1 participante e não cronometrou as tarefas, então não permite "
+        "generalizar o resultado.",
     ])
     h += [P("<b>Melhorias identificadas a partir dos testes:</b>")]
     h += lista([

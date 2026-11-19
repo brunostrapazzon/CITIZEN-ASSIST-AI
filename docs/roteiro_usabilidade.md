@@ -1,6 +1,6 @@
 # Roteiro de teste de usabilidade — Citizen Assist AI
 
-> **Situação: NÃO REALIZADO.** Este roteiro está pronto para ser aplicado. Nenhum resultado abaixo foi preenchido, e nenhuma participação foi simulada.
+> **Situação: REALIZADO em 17/11/2026 com 1 participante (P1).** Os resultados abaixo foram informados pela equipe e estão registrados em `data/usabilidade.json`.
 
 ## Objetivo
 
@@ -35,26 +35,28 @@ Verificar se uma pessoa que **não participou do desenvolvimento** consegue usar
 
 ## Formulário de registro (preencher durante o teste)
 
-**Participante:** PREENCHER (código) · **Interface:** PREENCHER (CLI/Web) · **Data:** PREENCHER
+**Participante:** P1 · **Interface:** CLI e Web · **Data:** 17/11/2026
 
 | Tarefa | Resultado (concluiu / com dificuldade / não concluiu) | Tempo | Dificuldade encontrada | Comentários do participante | Sugestão de melhoria |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Concluiu sem ajuda | Não medido | Nenhuma | — | — |
+| 2 | Concluiu sem ajuda | Não medido | Nenhuma | — | — |
+| 3 | Concluiu sem ajuda | Não medido | Nenhuma | — | — |
+| 4 | Concluiu sem ajuda | Não medido | Nenhuma | — | — |
+| 5 | Concluiu sem ajuda | Não medido | Nenhuma | — | — |
+
+**Nota de facilidade:** 5 de 5. **Comentário do participante:** "tudo muito prático e fácil de se usar, adorei".
 
 ## Perguntas finais
 
-1. De 1 (muito difícil) a 5 (muito fácil), quão fácil foi usar o assistente? ____
-2. Você confiaria na orientação? Por quê? ____
-3. O que mais atrapalhou? ____
-4. O que você mudaria? ____
+1. De 1 (muito difícil) a 5 (muito fácil), quão fácil foi usar o assistente? **5**
+2. Você confiaria na orientação? Por quê? *Não registrado.*
+3. O que mais atrapalhou? *Nada registrado.*
+4. O que você mudaria? *Nenhuma sugestão registrada.* Comentário geral: "tudo muito prático e fácil de se usar, adorei".
 
 ## Consolidação (após aplicar)
 
-- Número de participantes: PREENCHER
-- Tarefas concluídas sem ajuda: PREENCHER
-- Principais dificuldades: PREENCHER
-- Melhorias priorizadas: PREENCHER
+- Número de participantes: 1
+- Tarefas concluídas sem ajuda: 5 de 5 (100%)
+- Principais dificuldades: nenhuma registrada
+- Melhorias priorizadas: repetir o teste com mais participantes e cronometrar cada tarefa, para que o indicador de tempo exista e o resultado possa ser comparado.

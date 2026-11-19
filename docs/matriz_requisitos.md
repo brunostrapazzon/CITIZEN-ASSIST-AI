@@ -42,7 +42,7 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | 32 | Tempo com `time.perf_counter()` | Medição em `Assistente.consultar` | `respostas.py` | `tempo_ms` em cada resultado | `test_tempo_medido` | Atendido |
 | 33 | Diferenciar correta / incorreta / abstenção correta / abstenção incorreta / falha técnica | `classificar` | `metricas.py` | — | `test_classificacao_dos_resultados` | Atendido |
 | 34 | Interpretação dos resultados e ≥ 2 melhorias | README seções 19 e 24; relatório | `README.md`, `docs/relatorio.pdf` | — | — | Atendido |
-| 35 | Roteiro de usabilidade (sem inventar participantes) | Roteiro e formulário em branco | `docs/roteiro_usabilidade.md` | — | — | Preparado (execução depende da equipe) |
+| 35 | Roteiro de usabilidade (sem inventar participantes) | Roteiro aplicado e formulário preenchido | `docs/roteiro_usabilidade.md` | — | — | Atendido (aplicado em 17/11/2026, 1 participante) |
 | 36 | README completo (25 itens) | — | `README.md` | — | — | Atendido (com campos PREENCHER) |
 | 37 | Relatório PDF de 4 a 8 páginas | Gerado a partir dos resultados reais | `docs/relatorio.pdf`, `scripts/gerar_relatorio_pdf.py` | Contagem de páginas na geração | — | Atendido |
 | 38 | Documentação do uso de IA | — | `docs/uso_ia.md` | — | — | Atendido (revisão da equipe: PREENCHER) |
@@ -74,7 +74,7 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | Aviso de limitação, sem inventar e sem alegar atendimento oficial | mensagens e avisos; `textos.py` | `test_sem_correspondencia_informa_claramente` | Atendido |
 | Alternativas ou assuntos relacionados quando não há resposta adequada | `mostrar_alternativas` (CLI), botões de temas (Web) | `test_cli_sem_resultado_mostra_alternativas` | Atendido |
 | Taxa de acerto e tempo médio de consulta | `calcular_indicadores` | `test_indicadores_calculados_corretamente` | Atendido |
-| Teste de facilidade de uso com usuário ou roteiro de tarefas | roteiro + `data/usabilidade.json` + `calcular_usabilidade` | `test_usabilidade_calcula_indicadores` | **Preparado**: falta aplicar com uma pessoa real |
+| Teste de facilidade de uso com usuário ou roteiro de tarefas | roteiro + `data/usabilidade.json` + `calcular_usabilidade` | `test_usabilidade_calcula_indicadores` | Atendido (1 participante; tempo não medido) |
 | Interpretar indicadores, ≥ 2 melhorias e limitações da avaliação | README seções 19, 23 e 24; relatório | — | Atendido |
 | Uso de IA em `docs/uso_ia.md` | `docs/uso_ia.md` | — | Atendido (revisão da equipe: PREENCHER) |
 | .TXT com os 2 links; GitHub público; vídeo não listado | `entrega_fiap.txt`, `docs/link_video.txt` | — | **Pendente**: depende da equipe |
