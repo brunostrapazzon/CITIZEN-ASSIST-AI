@@ -156,7 +156,7 @@ def rodape(canvas, doc) -> None:
     canvas.saveState()
     canvas.setFont(FONTE, 7.5)
     canvas.setFillColor(CINZA)
-    canvas.drawString(2 * cm, 1.2 * cm, "Citizen Assist AI · FIAP Global Solution 2026.2 · CitizenTech · Equipe não nomeada")
+    canvas.drawString(2 * cm, 1.2 * cm, "Citizen Assist AI · FIAP Global Solution 2026.2 · CitizenTech · Equipe Rota Cidadã")
     canvas.drawRightString(A4[0] - 2 * cm, 1.2 * cm, f"Página {doc.page}")
     canvas.restoreState()
 
@@ -181,7 +181,7 @@ def montar() -> list:
           P("Orientação cidadã simples, organizada e com fonte oficial", "subtitulo"), Spacer(1, 1.4 * cm),
           P("Relatório técnico — Global Solution · 2º semestre de 2026", "subtitulo"),
           P("FIAP · Graduação em Ciência da Computação · Desafio CitizenTech", "subtitulo"), Spacer(1, 1.6 * cm)]
-    h.append(tabela([["Equipe não nomeada", "RM"],
+    h.append(tabela([["Equipe Rota Cidadã", "RM"],
                      ["Bruno Trevizan Strapazzon", "RM573816"],
                      ["Lucas Matheus Laitart", "RM573137"],
                      ["André Luiz Hlatchuk", "RM571789"]], [9, 4]))
@@ -383,7 +383,7 @@ def main() -> int:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     doc = SimpleDocTemplate(str(SAIDA), pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm,
                             topMargin=1.8 * cm, bottomMargin=1.8 * cm,
-                            title="Citizen Assist AI — Relatório técnico", author="Equipe não nomeada")
+                            title="Citizen Assist AI — Relatório técnico", author="Equipe Rota Cidadã")
     doc.build(montar(), onFirstPage=lambda c, d: None, onLaterPages=rodape)
     from reportlab.pdfbase.pdfdoc import PDFDocument  # noqa: F401  (garante import do módulo)
     paginas = doc.page

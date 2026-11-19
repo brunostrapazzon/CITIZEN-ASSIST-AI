@@ -10,7 +10,7 @@
 
 ## 1. Identificação da equipe
 
-### Equipe não nomeada
+### Equipe Rota Cidadã
 
 ### 👨‍🎓 Integrantes:
 

@@ -193,7 +193,7 @@ Clique em um botão de **Assuntos relacionados**. Depois, na barra lateral, cliq
 ## Checklist final do vídeo
 
 - [ ] Os três integrantes e os RMs aparecem ou são citados.
-- [ ] O nome da equipe aparece como "Equipe não nomeada" (ou o nome decidido).
+- [x] Nome da equipe: Rota Cidadã. O vídeo já publicado mostra "Equipe não nomeada", porque foi gravado antes da escolha do nome.
 - [ ] Os números falados conferem com a tela.
 - [ ] As duas interfaces aparecem.
 - [ ] Nenhuma funcionalidade mostrada ou citada deixa de existir no código.

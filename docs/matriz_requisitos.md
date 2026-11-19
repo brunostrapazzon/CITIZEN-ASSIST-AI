@@ -51,7 +51,7 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | 41 | Preparação para GitHub (`.gitignore`, sem credenciais) | Repositório público | `.gitignore` | https://github.com/brunostrapazzon/CITIZEN-ASSIST-AI | — | Atendido |
 | 42 | `docs/link_video.txt` com o link do YouTube (não listado) | — | `docs/link_video.txt` | — | — | Atendido |
 | 43 | Roteiro de apresentação com as duas interfaces | — | `docs/roteiro_apresentacao.md` | — | — | Atendido |
-| 44 | Identificação da equipe no README e no PDF | "Equipe não nomeada" + 3 integrantes e RMs | `README.md`, relatório | — | — | Atendido |
+| 44 | Identificação da equipe no README e no PDF | Equipe Rota Cidadã + 3 integrantes e RMs | `README.md`, relatório | — | — | Atendido |
 
 ## Enunciado oficial da FIAP (Global Solution 2026.2 — Citizen Assist AI)
 
