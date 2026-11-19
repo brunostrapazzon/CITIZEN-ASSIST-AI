@@ -45,7 +45,7 @@
 | Item | Endereço |
 |---|---|
 | Repositório GitHub | https://github.com/brunostrapazzon/CITIZEN-ASSIST-AI |
-| Vídeo de apresentação (YouTube, não listado) | PREENCHER (também em `docs/link_video.txt`) |
+| Vídeo de apresentação (YouTube, não listado) | https://youtu.be/QpQYXNN09l8 |
 | Relatório acadêmico | [`docs/relatorio.pdf`](docs/relatorio.pdf) |
 
 ---
@@ -451,7 +451,7 @@ Dica: use o menu 2 para escolher um tema ou digite o código da orientação (ex
 
 ## 25. Vídeo de apresentação
 
-PREENCHER: link do YouTube (vídeo **não listado**), também em `docs/link_video.txt`. Os roteiros estão em [`docs/roteiro_apresentacao.md`](docs/roteiro_apresentacao.md) e [`docs/roteiro_video.md`](docs/roteiro_video.md) (gravação em 3 partes).
+https://youtu.be/QpQYXNN09l8 (vídeo **não listado** no YouTube, também em `docs/link_video.txt`). Os roteiros estão em [`docs/roteiro_apresentacao.md`](docs/roteiro_apresentacao.md) e [`docs/roteiro_video.md`](docs/roteiro_video.md) (gravação em 3 partes).
 
 ---
 

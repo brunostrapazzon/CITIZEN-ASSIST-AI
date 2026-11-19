@@ -43,13 +43,13 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | 33 | Diferenciar correta / incorreta / abstenção correta / abstenção incorreta / falha técnica | `classificar` | `metricas.py` | — | `test_classificacao_dos_resultados` | Atendido |
 | 34 | Interpretação dos resultados e ≥ 2 melhorias | README seções 19 e 24; relatório | `README.md`, `docs/relatorio.pdf` | — | — | Atendido |
 | 35 | Roteiro de usabilidade (sem inventar participantes) | Roteiro aplicado e formulário preenchido | `docs/roteiro_usabilidade.md` | — | — | Atendido (aplicado em 17/11/2026, 1 participante) |
-| 36 | README completo (25 itens) | — | `README.md` | — | — | Atendido (pendentes: link do vídeo, participação na competição e licença) |
+| 36 | README completo (25 itens) | — | `README.md` | — | — | Atendido (pendentes opcionais: participação na competição e licença) |
 | 37 | Relatório PDF de 4 a 8 páginas | Gerado a partir dos resultados reais | `docs/relatorio.pdf`, `scripts/gerar_relatorio_pdf.py` | Contagem de páginas na geração | — | Atendido |
 | 38 | Documentação do uso de IA | — | `docs/uso_ia.md` | — | — | Atendido (revisado por toda a equipe) |
 | 39 | Estrutura de pastas obrigatória | Caminhos exigidos presentes | raiz do projeto | Auditoria final | — | Atendido |
 | 40 | Sem serviços pagos e sem internet na execução | Somente biblioteca padrão (+ opcionais locais) | — | — | Toda a suíte roda offline | Atendido |
 | 41 | Preparação para GitHub (`.gitignore`, sem credenciais) | Repositório público | `.gitignore` | https://github.com/brunostrapazzon/CITIZEN-ASSIST-AI | — | Atendido |
-| 42 | `docs/link_video.txt` com o link do YouTube (não listado) | — | `docs/link_video.txt` | — | — | Pendente (vídeo ainda não gravado) |
+| 42 | `docs/link_video.txt` com o link do YouTube (não listado) | — | `docs/link_video.txt` | — | — | Atendido |
 | 43 | Roteiro de apresentação com as duas interfaces | — | `docs/roteiro_apresentacao.md` | — | — | Atendido |
 | 44 | Identificação da equipe no README e no PDF | "Equipe não nomeada" + 3 integrantes e RMs | `README.md`, relatório | — | — | Atendido |
 
@@ -77,7 +77,7 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | Teste de facilidade de uso com usuário ou roteiro de tarefas | roteiro + `data/usabilidade.json` + `calcular_usabilidade` | `test_usabilidade_calcula_indicadores` | Atendido (1 participante; tempo não medido) |
 | Interpretar indicadores, ≥ 2 melhorias e limitações da avaliação | README seções 19, 23 e 24; relatório | — | Atendido |
 | Uso de IA em `docs/uso_ia.md` | `docs/uso_ia.md` | — | Atendido (revisado por toda a equipe) |
-| .TXT com os 2 links; GitHub público; vídeo não listado | `entrega_fiap.txt`, `docs/link_video.txt` | — | **Pendente**: depende da equipe |
+| .TXT com os 2 links; GitHub público; vídeo não listado | `entrega_fiap.txt`, `docs/link_video.txt` | — | Atendido |
 
 ## Ajustes de estrutura em relação ao modelo
 

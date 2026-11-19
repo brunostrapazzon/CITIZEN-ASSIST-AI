@@ -186,7 +186,7 @@ def montar() -> list:
                      ["Lucas Matheus Laitart", "RM573137"],
                      ["André Luiz Hlatchuk", "RM571789"]], [9, 4]))
     h += [Spacer(1, 1.6 * cm),
-          P(f"Repositório: https://github.com/brunostrapazzon/CITIZEN-ASSIST-AI · Vídeo: PREENCHER · Dados de avaliação gerados em {res['gerado_em']}", "legenda"),
+          P(f"Repositório: https://github.com/brunostrapazzon/CITIZEN-ASSIST-AI · Vídeo: https://youtu.be/QpQYXNN09l8 · Dados de avaliação gerados em {res['gerado_em']}", "legenda"),
           P("Projeto acadêmico. Não é um canal oficial e não tem vínculo com órgãos públicos.", "legenda"),
           PageBreak()]
 
