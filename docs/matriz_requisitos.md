@@ -43,7 +43,7 @@ Os testes citados foram executados com `python -m pytest`. A evidência de cada 
 | 33 | Diferenciar correta / incorreta / abstenção correta / abstenção incorreta / falha técnica | `classificar` | `metricas.py` | — | `test_classificacao_dos_resultados` | Atendido |
 | 34 | Interpretação dos resultados e ≥ 2 melhorias | README seções 19 e 24; relatório | `README.md`, `docs/relatorio.pdf` | — | — | Atendido |
 | 35 | Roteiro de usabilidade (sem inventar participantes) | Roteiro aplicado e formulário preenchido | `docs/roteiro_usabilidade.md` | — | — | Atendido (aplicado em 17/11/2026, 1 participante) |
-| 36 | README completo (25 itens) | — | `README.md` | — | — | Atendido (pendentes opcionais: participação na competição e licença) |
+| 36 | README completo (25 itens) | — | `README.md` | — | — | Atendido |
 | 37 | Relatório PDF de 4 a 8 páginas | Gerado a partir dos resultados reais | `docs/relatorio.pdf`, `scripts/gerar_relatorio_pdf.py` | Contagem de páginas na geração | — | Atendido |
 | 38 | Documentação do uso de IA | — | `docs/uso_ia.md` | — | — | Atendido (revisado por toda a equipe) |
 | 39 | Estrutura de pastas obrigatória | Caminhos exigidos presentes | raiz do projeto | Auditoria final | — | Atendido |

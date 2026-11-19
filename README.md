@@ -497,4 +497,4 @@ CITIZEN-ASSIST-AI/
 
 ## 📋 Licença
 
-PREENCHER: a equipe deve escolher a licença. O modelo de portfólio da FIAP usa CC BY 4.0.
+Este projeto está licenciado sob a [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br), a mesma licença do modelo de portfólio da FIAP. Ele pode ser usado, copiado, adaptado e compartilhado, desde que seja dado o crédito à Equipe Rota Cidadã (Bruno Trevizan Strapazzon, Lucas Matheus Laitart e André Luiz Hlatchuk) com o link para este repositório. Veja o arquivo [LICENSE](LICENSE).
