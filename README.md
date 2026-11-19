@@ -1,16 +1,18 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
 # 🧭 CITIZEN ASSIST AI
 
 > Orientação cidadã simples, organizada e com fonte oficial.
 
-**FIAP · Graduação em Ciência da Computação · Global Solution — 2º semestre de 2026 · Desafio CitizenTech · Case Citizen Assist AI**
+**Graduação em Ciência da Computação · Global Solution — 2º semestre de 2026 · Desafio CitizenTech · Case Citizen Assist AI**
 
 > Projeto acadêmico. Não é um canal oficial e não tem vínculo com órgãos públicos.
 
----
-
 ## 1. Identificação da equipe
 
-**Equipe:** Equipe não nomeada
+### Equipe não nomeada
+
+### 👨‍🎓 Integrantes:
 
 | Integrante | RM |
 |---|---|
@@ -18,7 +20,25 @@
 | Lucas Matheus Laitart | RM573137 |
 | André Luiz Hlatchuk | RM571789 |
 
+### 👩‍🏫 Professores:
+
+**Tutor(a):** PREENCHER
+
+**Coordenador(a):** <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a> (conforme o modelo de portfólio da coordenação)
+
 **Participação na Competição:** PREENCHER — [ ] Sim, aceitamos participar / [ ] Não vamos participar.
+
+## 📑 Sumário
+
+| Tema | Seções |
+|---|---|
+| Problema e proposta | [3. Problema](#3-descrição-do-problema) · [4. Objetivo](#4-objetivo-da-solução) · [5. Público](#5-público-beneficiado) · [6. Temas](#6-temas-contemplados) |
+| Solução | [7. Funcionalidades](#7-funcionalidades) · [8. Tecnologias](#8-tecnologias-utilizadas) · [9. Arquitetura](#9-arquitetura) · [10. Base de conhecimento](#10-estrutura-da-base-de-conhecimento) |
+| Algoritmos | [11. Estruturas de dados](#11-estruturas-de-dados-utilizadas) · [12. Busca](#12-algoritmo-de-busca) · [13. Grafo e Dijkstra](#13-grafo-e-dijkstra) · [14. Modelos de prompt A e B](#14-estratégias-de-prompts-modelos-a-e-b) |
+| Confiabilidade | [15. Tratamento de erros](#15-tratamento-de-erros) · [16. Privacidade, clareza e acessibilidade](#16-privacidade-e-responsabilidade) · [17. Fontes consultadas](#17-fontes-consultadas) |
+| Avaliação | [18. Plano de testes](#18-plano-de-testes) · [19. Resultados](#19-resultados-reais) · [20. Indicadores](#20-indicadores-de-desempenho) |
+| Uso | [21. Como executar](#21-como-executar) · [22. Exemplos](#22-exemplos-de-perguntas-e-respostas) · [25. Vídeo](#25-vídeo-de-apresentação) |
+| Conclusão | [23. Limitações](#23-limitações) · [24. Evolução](#24-possibilidades-de-evolução) · [Uso de IA](#uso-de-inteligência-artificial) · [Licença](#-licença) |
 
 ## 2. Links do projeto
 
@@ -246,7 +266,7 @@ As páginas abaixo foram abertas e lidas em 17/11/2026. Os textos da base são s
 | Código | Fonte |
 |---|---|
 | DOC001 | Governo Digital — Dúvidas Frequentes sobre a CIN: https://www.gov.br/governodigital/pt-br/identidade/cin/perguntas-frequentes-sobre-a-cin |
-| DOC002 | Receita Federal — Atualizar Cadastro de Pessoas Físicas: https://www.gov.br/pt-br/servicos/atualizar-cadastro-de-pessoas-fisicas |
+| DOC002 | Receita Federal — Atualizar CPF: https://www.gov.br/pt-br/servicos/atualizar-cadastro-de-pessoas-fisicas |
 | DOC003 | Ministério do Trabalho e Emprego — Obter a Carteira de Trabalho: https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho |
 | DOC004 | Polícia Federal — Obter passaporte: https://www.gov.br/pt-br/servicos/obter-passaporte-comum-para-brasileiro |
 | DOC005 | TSE — Título Eleitoral (FAQ): https://www.tse.jus.br/servicos-eleitorais/titulo-eleitoral/titulo-eleitoral-faq |
@@ -433,7 +453,7 @@ PREENCHER: link do YouTube (vídeo **não listado**), também em `docs/link_vide
 
 ---
 
-## Estrutura de pastas
+## 📁 Estrutura de pastas
 
 ```
 CITIZEN-ASSIST-AI/
@@ -466,7 +486,7 @@ CITIZEN-ASSIST-AI/
 └── .streamlit/config.toml    # Tema visual da interface web
 ```
 
-## Decisões técnicas
+## 🧠 Decisões Técnicas
 
 - **CLI como interface principal e Web como diferencial**, ambas sobre o mesmo núcleo, para cumprir o comando obrigatório `python src/sistema.py` sem duplicar lógica.
 - **Busca explicável** (índice invertido + idf + cobertura) em vez de modelo de linguagem, para garantir que nada seja inventado e que a equipe consiga justificar cada resultado.
@@ -477,6 +497,6 @@ CITIZEN-ASSIST-AI/
 
 O desenvolvimento usou um assistente de programação baseado em IA como ferramenta de apoio. O registro detalhado está em [`docs/uso_ia.md`](docs/uso_ia.md).
 
-## Licença
+## 📋 Licença
 
 PREENCHER: a equipe deve escolher a licença. O modelo de portfólio da FIAP usa CC BY 4.0.

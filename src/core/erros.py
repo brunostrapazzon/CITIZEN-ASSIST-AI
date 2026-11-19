@@ -4,6 +4,8 @@ As interfaces capturam CitizenAssistError para mostrar mensagens amigáveis,
 sem expor detalhes técnicos ao cidadão.
 """
 
+from __future__ import annotations  # permite "list[str] | None" também no Python 3.9
+
 
 class CitizenAssistError(Exception):
     """Erro base de todo o sistema."""
